@@ -26,11 +26,10 @@ SECRET_KEY = 'django-insecure-v^fh9xm1omq)2icyc@cd1(gm%68@v0#l6kn2tgdvo46&bgma2j
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+# implementciones 
 SWAGGER_SETTINGS = {
-    'DEFAULT_INFO': 'your_project.urls.swagger_info',
+    'DEFAULT_INFO': 'ApiLabs.urls.swagger_info',
 }
-
 
 # Application definition
 
@@ -43,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_yasg',
+    'oauth2_provider',
     'ApiLabsApp',
 ]
 
