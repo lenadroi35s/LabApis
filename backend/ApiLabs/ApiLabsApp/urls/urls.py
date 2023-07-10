@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import SangreDataListCreateView, SangreDataRetrieveUpdateDestroyView
+from ..views.views import SangreDataListCreateView, SangreDataRetrieveUpdateDestroyView
 
 
 
