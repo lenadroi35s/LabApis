@@ -5,6 +5,8 @@ instalar en el backend
 .-pip install django
 .-pip install djangorestframework
 .-pip install drf-yasg
+.-pip install django-oauth-toolkit
+
 
 migrar con 
 .-python manage.py makemigrations
