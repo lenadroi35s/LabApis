@@ -16,3 +16,7 @@ migrar con
 
 ejecutar con
 .-python manage.py runserver
+
+instalar en el frontend
+npm i 
+npm start
