@@ -6,6 +6,8 @@ instalar en el backend
 .-pip install djangorestframework
 .-pip install drf-yasg
 .-pip install django-oauth-toolkit
+.-pip install django-cors-headers
+
 
 
 migrar con 
