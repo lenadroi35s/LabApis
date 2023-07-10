@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models.models import SangreData
+from .models import SangreData
 
 class SangreDataSerializer(serializers.ModelSerializer):
     class Meta:

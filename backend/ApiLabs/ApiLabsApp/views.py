@@ -1,6 +1,6 @@
 from rest_framework import generics
-from ..models.models import SangreData
-from ..serializers import SangreDataSerializer
+from .models import SangreData
+from .serializers import SangreDataSerializer
 from drf_yasg.utils import swagger_auto_schema
         
 class SangreDataListCreateView(generics.ListCreateAPIView):
