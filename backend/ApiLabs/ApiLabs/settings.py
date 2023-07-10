@@ -32,7 +32,7 @@ SWAGGER_SETTINGS = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    # Lista de los orígenes permitidos (ejemplo: 'http://localhost:3000')
+    'http://localhost:3000'
 ]
 
 CORS_ALLOW_ALL_ORIGINS = False
