@@ -1,22 +1,33 @@
 
-instalar en el backend
+# Instalar en el backend
+<br/>
 .-pip install requests
+
+<br/>
 .-pip install djangorestframework
+<br/>
 .-pip install django
+<br/>
 .-pip install djangorestframework
+<br/>
 .-pip install drf-yasg
+<br/>
 .-pip install django-oauth-toolkit
+<br/>
 .-pip install django-cors-headers
+<br/>
 
 
-
-migrar con 
+# Migrar Con 
 .-python manage.py makemigrations
+<br/>
 .-python manage.py migrate
-
-ejecutar con
+<br/>
+# Ejecutar con
+<br/>
 .-python manage.py runserver
-
-instalar en el frontend
-npm i 
+<br/>
+# Instalar en el frontend
+npm i
+<br/> 
 npm start
